@@ -8,11 +8,13 @@ char charactername[]="Gouri";
 char schoolname[]="Believers Church Residential School";
 int characterage=16;
 int characterclass=11;
-double charactermarks=45.5;
+double charactermarks1=45.5;
+diuble charactermarks2=95;
 printf("Name of Student: %s\n",  charactername );
 printf("Name of School: %s\n", schoolname);
 printf("Student Age:%d\n", characterage);
 printf("Class of Student :%d\n", characterclass);
-printf("Marks Scored by the student :%f\n", charactermarks);
-  return 0;
+printf("Marks Scored in maths :%f\n", charactermarks1);
+printf("Marks scored in chemistry:%f\n", charactermarks2);
+return 0;
 }
